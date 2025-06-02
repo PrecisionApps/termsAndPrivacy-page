@@ -1,0 +1,40 @@
+# GitHub Pages Configuration
+# This file is required for GitHub Pages to properly serve the site
+
+# Site settings
+title: "MediCue Legal Documents"
+description: "Terms of Use and Privacy Policy for MediCue - iOS Medication Reminder App"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files that start with underscores
+include:
+  - _config.yml
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+
+# SEO settings
+lang: en_US
+author: "MediCue"
+
+# Social media and contact
+email: kaan@software-zero.com
+
+# GitHub Pages specific settings
+github:
+  is_project_page: false
+  is_user_page: true
